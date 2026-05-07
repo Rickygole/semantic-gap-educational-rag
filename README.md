@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 Download the two required datasets and place them in the `data/` directory. See `data/README.md` for exact instructions.
 
-* NeurIPS 2020 Education Challenge: __[https://eedi.com/projects/neurips-education-challenge](https://www.eedischool.com/projects/neurips-education-challenge)__ (direct download: __https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip__)
+* * NeurIPS 2020 Education Challenge: __https://www.eedischool.com/projects/neurips-education-challenge__ (direct download: __https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip__)
 * Eedi Misconceptions: __https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics__
 * NeurIPS 2020 Education Challenge: 15.8M student interactions
 * Eedi Mining Misconceptions: 1,869 expert-labeled questions
