@@ -22,7 +22,7 @@ semantic-gap-educational-rag/
 ├── LICENSE
 ├── .gitignore
 ├── data/
-│   └── README.md              # Instructions to download datasets from Kaggle
+│   └── README.md              # Instructions to download required datasets
 ├── src/
 │   ├── manifold.py            # Stage 1: SVD behavioral manifold construction
 │   ├── clustering.py          # Stages 2-4: spectral clustering and labeling
@@ -43,7 +43,7 @@ semantic-gap-educational-rag/
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/semantic-gap-educational-rag.git
+git clone https://github.com/Rickygole/semantic-gap-educational-rag.git
 cd semantic-gap-educational-rag
 pip install -r requirements.txt
 ```
@@ -54,14 +54,12 @@ pip install -r requirements.txt
 
 ## Data
 
-Download the two required datasets from Kaggle and place them in the `data/` directory. See `data/README.md` for exact instructions.
+Download the two required datasets and place them in the `data/` directory. See `data/README.md` for exact instructions.
 
-- NeurIPS 2020: https://www.kaggle.com/competitions/riiid-test-answer-prediction
-- Eedi Misconceptions: https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics
-
-- **NeurIPS 2020 Education Challenge:** 15.8M student interactions
-- **Eedi Mining Misconceptions:** 1,869 expert-labeled questions
-
+* NeurIPS 2020 Education Challenge: __https://eedi.com/projects/neurips-education-challenge__ (direct download: __https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip__)
+* Eedi Misconceptions: __https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics__
+* NeurIPS 2020 Education Challenge: 15.8M student interactions
+* Eedi Mining Misconceptions: 1,869 expert-labeled questions
 ---
 
 ## Usage
